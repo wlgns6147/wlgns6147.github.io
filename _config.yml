@@ -49,10 +49,10 @@ darkmode: true
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me 1 (Use this to override about section title)
+# about_title: About Me 1 (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring / Oracle & MariaDB 기반의 7년차 백엔드 개발자로 __1금융권 퇴직연금 서비스__ 개발, __임상 데이터 연구 & 분석(Clinical Data Warehouse) 플랫폼__ 개발 및 인프라 구축 등을 해왔습니다.
+  Java & Spring / Oracle & MariaDB 기반의 7년차 백엔드 개발자로 __1금융권 퇴직연금 서비스__ 개발, __임상 데이터 연구&분석(Clinical Data Warehouse) 플랫폼__ 개발 및 인프라 구축 등을 해왔습니다.
   개인이 하고 싶은 일 보다는 회사와 팀에 도움이 되는 개발을 해야한다는 생각에 ... <mark>팀원과 팀의 성장</mark> 등을 주요 업무로 하고 있습니다.
   
 # xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.
@@ -69,7 +69,7 @@ content:
         sub_title: Java & Spring 백엔드 개발자
         caption: 2021.02 ~ 현재
         quote: >
-          임상 데이터 연구 & 분석 플랫폼
+          임상 데이터 연구&분석 플랫폼
         description: | # this will include new lines to allow paragraphs
           업무 정리 후 작성
 
@@ -92,25 +92,17 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: 참여 프로젝트
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - 프로젝트 내용1 퇴직연금
+          - 프로젝트 내용2 EMR
+          - 프로젝트 내용2 CDW
 
   - title: Skill
     layout: list
-    quote: >
-      현재 업무에 사용중 혹은 사용했던 기술들입니다.
+    quote: 현재 업무에 사용중 혹은 사용했던 기술들입니다.
     content:
       - layout: left
         title: Backend
@@ -118,17 +110,15 @@ content:
           - Java, Maven
           - IntelliJ
 
+      - layout: left
         title: DevOps
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
         description: | # this will include new lines to allow paragraphs
           - Oracle, MariaDB
           - Tomcat
           - Orange, Data Grip
 
+      - layout: left
         title: Frontend
-        quote: >
-          현재 업무에 사용중 혹은 사용했던 기술들입니다.
         description: | # this will include new lines to allow paragraphs
           - React, Npm, Node
           - Visual Studio Code
