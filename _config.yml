@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: 황지훈
-title: Backend Developer
+title: 백엔드 개발자
 email: wlgns6147@naver.com
-# email_title: Email (Email title override)
+email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
@@ -54,25 +54,36 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Java & Spring / Oracle & MariaDB 기반의 7년차 백엔드 개발자로 **1금융권 퇴직연금 서비스** 개발, **임상데이터연구&분석(Clinical Data Warehouse) 플랫폼** 개발 및 인프라 구축 등을 해왔습니다.
+  개인이 하고 싶은 일 보다는 회사와 팀에 도움이 되는 개발을 해야한다는 생각에 ... <mark>팀원과 팀의 성장<mark> 등을 주요 업무로 하고 있습니다.
+  
+# xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.
+# 테스트 코드 작성을 당연하게 생각하여 전 직장 시스템의 경우 2500개의 테스트 케이스가 하루에도 수십번 수행되는 환경을 구성하였습니다.
+# 현재는 CTO로 사업과 제품의 방향성을 고려하여 채용, 시스템 설계, 팀 매니징, <mark>팀원과 팀의 성장<mark> 등을 주요 업무로 하고 있습니다.
 
 content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: 더존비즈온
+        sub_title: Java & Spring 백엔드 개발자
+        caption: 2021.02 ~ 현재
+        link: https://www.douzone.com/main/index.jsp
+          https://www.wehagom.com/#/landingm/intro/platform
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          업무 정리 후 작성
+      - layout: left
+        title: 조이앤비즈
+        sub_title: Java 백엔드 개발자
+        caption: 2018.11 ~ 2021.02
+        link: http://www.joynbiz.co.kr/
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          업무 정리 후 작성
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
