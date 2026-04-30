@@ -69,9 +69,13 @@ content:
         sub_title: Java & Spring 백엔드 개발자
         caption: 2021.02 ~ 현재
         quote: >
-          임상 데이터 연구&분석 플랫폼
-        description: | # this will include new lines to allow paragraphs
-          업무 정리 후 작성
+          정밀의료 빅데이터 기반 임상 데이터 연구&분석 플랫폼
+        description: |
+          - 웹 기반 EMR 신규 프로젝트(WEHAGO H) 설계, 개발 참여 및 병원 시스템 오픈
+          - 정밀의료 플랫폼 부서로 전환 후 CDW 서비스 개발 및 고도화
+          - 데이터셋, 카탈로그, 아트보드 등 데이터 분석 기능 설계 및 개발
+          - 대용량 데이터 처리 및 쿼리 성능 개선
+          - 병원 고객사 유지보수 및 요구사항 대응
 
       - layout: left
         title: 조이앤비즈
@@ -79,12 +83,12 @@ content:
         sub_title: Java 백엔드 개발자
         caption: 2018.11 ~ 2021.02
         quote: >
-          1금융권 퇴직연금 서비스
-        description: | # this will include new lines to allow paragraphs
-          - IBK기업은행 퇴직연금 재구축 2018.11 ~ 2019.03 (5개월)
-          - KB국민은행 THE K 퇴직연금 고도화 2019.04 ~ 2020.02 (10개월)
-          - KB국민은행 퇴직연금 SM 2020.03 ~ 2020.09 (6개월)
-          - KB국민은행 퇴직연금 고도화 2020.10 ~ 2021.02 (4개월)
+          1금융권 퇴직연금 시스템 구축 및 고도화
+        description: |
+          - IBK 기업은행, KB 국민은행 퇴직연금 시스템 구축 및 고도화 프로젝트 수행
+          - 신규 가입, 고객 정보 관리, 퇴직연금 상품 관리 등 핵심 금융 비즈니스 로직 개발
+          - 금융 데이터 정합성 확보 및 시스템 안정성 개선
+          - 운영 및 유지보수(SM) 경험을 통한 장애 대응 및 서비스 안정화
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -97,8 +101,68 @@ content:
           참여 프로젝트 정리
         description: | # this will include new lines to allow paragraphs
           - 프로젝트 내용1 퇴직연금
-          - 프로젝트 내용2 웹 기반 EMR [links](https://www.wehagoh.com/cliniclanding)
-          - 프로젝트 내용2 CDW 정밀의료 빅데이터 플랫폼 (eg. https://www.wehagom.com/#/landingm/intro/platform)
+          - 웹 기반 EMR 개발 - [WEHAGO H](https://www.wehagoh.com/cliniclanding)
+          - 정밀의료 빅데이터 플랫폼 > 임상 데이터 연구&분석 시스템 개발 - [CDW](https://www.wehagom.com/#/landingm/intro/platform)
+          - 강북삼성병원_경영지표(디자인툴) 서비스를 초기 구축 하였고, 정밀의료플랫폼_CDW 서비스에 신규 개발, 고도화, 오류 등 수정건을 배포하고 정상 결과를 확인한다.
+
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: CDW (임상 데이터 연구 & 분석 플랫폼)
+        quote: >
+          정밀의료 빅데이터 기반 데이터 분석 시스템
+        description: |
+          [신규 개발]
+          - 기술통계 기능 개발
+          - 가로형 카탈로그 MView 리프레시 기능 개발
+          - 데이터셋 상태/권한/공유 유효성 검증 로직 구현
+          - 아트보드 히스토리 기능 개발
+          - CDW ↔ LLM 연동 기능 개발
+          - Spark Session 기반 데이터 처리 기능 개발
+
+          [성능 개선]
+          - 아트보드 중간가공 구조 개선 (정규화 및 로직 리팩토링)
+          - 코호트 모수 조회 비동기 처리 및 쿼리 성능 개선
+          - PMS 쿼리 구조 개선을 통한 응답 속도 개선
+
+          [데이터 처리]
+          - 대용량 데이터 일괄 생성 기능 개발
+          - 카탈로그 적재 로직 개선 및 자동 마이그레이션 기능 구현
+
+          [유지보수]
+          - 강북삼성병원 요구사항 반영 및 운영 지원
+
+      - layout: left
+        title: 경영지표 디자인 툴
+        quote: >
+          병원 경영 데이터 시각화 및 분석 도구
+        description: |
+          - 경영지표 디자인 툴 설계 및 개발 (개발 리딩)
+          - 신규 테이블 설계 및 데이터 구조 관리
+          - EDW/CDW 데이터셋 연동 및 저장 기능 구현
+
+      - layout: left
+        title: 웹 기반 EMR 시스템 (WEHAGO H)
+        quote: >
+          병원 진료 데이터 관리 시스템
+        description: |
+          - 심평원 및 병원 기초코드 관리 기능 개발
+          - 필메디스 병원 시스템 오픈 및 운영 지원
+
+      - layout: left
+        title: 퇴직연금 시스템 구축 및 고도화
+        quote: >
+          1금융권 대용량 금융 데이터 처리 시스템
+        description: |
+          - IBK기업은행 퇴직연금 재구축 (2018.11 ~ 2019.03)
+          - KB국민은행 퇴직연금 고도화 (2019.04 ~ 2020.02)
+          - KB국민은행 퇴직연금 운영 및 유지보수 (2020.03 ~ 2020.09)
+          - KB국민은행 퇴직연금 추가 고도화 (2020.10 ~ 2021.02)
+
+          - 정산, 계좌 관리 등 금융 핵심 로직 개발
+          - 대용량 데이터 처리 및 쿼리 최적화
 
   - title: Skill
     layout: list
@@ -113,16 +177,17 @@ content:
         description: |
           - Java 8 (비즈니스 로직 구현 및 데이터 처리)
           - Spring Framework (REST API 개발 및 서비스 구조 설계)
-          - MyBatis (동적 SQL 및 쿼리 매핑)
           - Maven (프로젝트 빌드 및 의존성 관리)
-          - IntelliJ, Eclipse
+          - MyBatis (동적 SQL 및 쿼리 매핑)
+          - Eclipse, IntelliJ
 
       - layout: left
         title: DevOps & Database
         description: |
           - MariaDB, Oracle (쿼리 작성 및 성능 개선 경험)
           - Tomcat (웹 애플리케이션 배포 및 운영)
-          - Orange, DataGrip, DBeaver
+          - GitLab, SVN (형상 관리)
+          - DataGrip, DBeaver, Orange
 
       - layout: left
         title: Frontend
