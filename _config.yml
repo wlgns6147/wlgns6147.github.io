@@ -65,13 +65,13 @@ content:
     content:
       - layout: left
         title: 더존비즈온
-        link: https://www.douzone.com/
-        sub_title: Java & Spring 백엔드 개발자
+        link: https://www.douzone.com
+        sub_title: Java & Spring 백엔드 개발
         caption: 2021.02 ~ 현재
         quote: >
-          정밀의료 빅데이터 기반 임상 데이터 연구&분석 플랫폼
+          정밀의료 빅데이터 기반 임상 데이터 연구&분석 플랫폼 개발
         description: |
-          - 웹 기반 EMR 신규 프로젝트(WEHAGO H) 설계, 개발 참여 및 병원 시스템 오픈
+          - 웹 기반 EMR 신규 프로젝트(WEHAGO H) 설계, 개발 참여 및 의원 시스템 오픈
           - 정밀의료 플랫폼 부서로 전환 후 CDW 서비스 개발 및 고도화
           - 데이터셋, 카탈로그, 아트보드 등 데이터 분석 기능 설계 및 개발
           - 대용량 데이터 처리 및 쿼리 성능 개선
@@ -79,38 +79,24 @@ content:
 
       - layout: left
         title: 조이앤비즈
-        link: http://www.joynbiz.co.kr/
-        sub_title: Java 백엔드 개발자
+        link: http://www.joynbiz.co.kr
+        sub_title: Java & Spring 백엔드 개발
         caption: 2018.11 ~ 2021.02
         quote: >
-          1금융권 퇴직연금 시스템 구축 및 고도화
+          퇴직연금 시스템 구축 및 고도화
         description: |
           - IBK 기업은행, KB 국민은행 퇴직연금 시스템 구축 및 고도화 프로젝트 수행
-          - 신규 가입, 고객 정보 관리, 퇴직연금 상품 관리 등 핵심 금융 비즈니스 로직 개발
+          - 신규 가입, 고객 정보, 퇴직연금 상품 관리 등 고객 관리 비즈니스 로직 개발
           - 금융 데이터 정합성 확보 및 시스템 안정성 개선
           - 운영 및 유지보수(SM) 경험을 통한 장애 대응 및 서비스 안정화
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: 참여 프로젝트
-        quote: >
-          참여 프로젝트 정리
-        description: | # this will include new lines to allow paragraphs
-          - 프로젝트 내용1 퇴직연금
-          - 웹 기반 EMR 개발 - [WEHAGO H](https://www.wehagoh.com/cliniclanding)
-          - 정밀의료 빅데이터 플랫폼 > 임상 데이터 연구&분석 시스템 개발 - [CDW](https://www.wehagom.com/#/landingm/intro/platform)
-          - 강북삼성병원_경영지표(디자인툴) 서비스를 초기 구축 하였고, 정밀의료플랫폼_CDW 서비스에 신규 개발, 고도화, 오류 등 수정건을 배포하고 정상 결과를 확인한다.
-
-
+          
   - title: Projects
     layout: list
     content:
       - layout: left
-        title: CDW (임상 데이터 연구 & 분석 플랫폼)
+        title: CDW
+        link: https://www.wehagom.com
+        sub_title: 임상 데이터 연구 & 분석 플랫폼
         quote: >
           정밀의료 빅데이터 기반 데이터 분석 시스템
         description: |
@@ -136,6 +122,7 @@ content:
 
       - layout: left
         title: 경영지표 디자인 툴
+        sub_title: 임상 데이터 연구 & 분석 플랫폼
         quote: >
           병원 경영 데이터 시각화 및 분석 도구
         description: |
@@ -144,24 +131,26 @@ content:
           - EDW/CDW 데이터셋 연동 및 저장 기능 구현
 
       - layout: left
-        title: 웹 기반 EMR 시스템 (WEHAGO H)
+        title: WEHAGO H
+        link: https://www.wehagoh.com
+        sub_title: 웹 기반 EMR 시스템
         quote: >
-          병원 진료 데이터 관리 시스템
+          의원급 진료 데이터 관리 시스템
         description: |
-          - 심평원 및 병원 기초코드 관리 기능 개발
-          - 필메디스 병원 시스템 오픈 및 운영 지원
+          - 건강보험심사평가원 EDI코드 및 병원 처방코드 관리 기능 개발
+          - 의원급 시스템 오픈 및 운영 지원
 
       - layout: left
         title: 퇴직연금 시스템 구축 및 고도화
         quote: >
-          1금융권 대용량 금융 데이터 처리 시스템
+          대용량 금융 데이터 처리 시스템
         description: |
-          - IBK기업은행 퇴직연금 재구축 (2018.11 ~ 2019.03)
-          - KB국민은행 퇴직연금 고도화 (2019.04 ~ 2020.02)
-          - KB국민은행 퇴직연금 운영 및 유지보수 (2020.03 ~ 2020.09)
-          - KB국민은행 퇴직연금 추가 고도화 (2020.10 ~ 2021.02)
+          - IBK기업은행 퇴직연금 재구축 (5개월, 2018.11 ~ 2019.03)
+          - KB국민은행 퇴직연금 고도화 (10개월, 2019.04 ~ 2020.02)
+          - KB국민은행 퇴직연금 운영 및 유지보수 (6개월, 2020.03 ~ 2020.09)
+          - KB국민은행 퇴직연금 추가 고도화 (4개월, 2020.10 ~ 2021.02)
 
-          - 정산, 계좌 관리 등 금융 핵심 로직 개발
+          - 신규 가입, 고객 정보, 퇴직연금 상품 관리 등 고객 관리 비즈니스 로직 개발
           - 대용량 데이터 처리 및 쿼리 최적화
 
   - title: Skill
