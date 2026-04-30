@@ -94,11 +94,11 @@ content:
                       # other value (or no value) means no border will be displayed
         title: 참여 프로젝트
         quote: >
-          Short overview of the project (optional)
+          참여 프로젝트 정리
         description: | # this will include new lines to allow paragraphs
           - 프로젝트 내용1 퇴직연금
-          - 프로젝트 내용2 EMR
-          - 프로젝트 내용2 CDW
+          - 프로젝트 내용2 웹 기반 EMR [links](https://www.wehagoh.com/cliniclanding)
+          - 프로젝트 내용2 CDW 정밀의료 빅데이터 플랫폼 (eg. https://www.wehagom.com/#/landingm/intro/platform)
 
   - title: Skill
     layout: list
@@ -106,7 +106,7 @@ content:
       - layout: left
         title: ""
         description: |
-          <div class="content" style="width: 100%"><p class="quote">현재 업무에 사용 중이거나 사용했던 기술입니다</p></div>
+          <p class="quote" style="width: 100%; position: relative; transform: translateX(-16%);">현재 업무에 사용 중이거나 사용했던 기술입니다</p>
 
       - layout: left
         title: Backend
