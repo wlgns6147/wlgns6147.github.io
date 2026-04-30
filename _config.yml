@@ -103,7 +103,7 @@ content:
   - title: Skill
     layout: list
     content:
-      - layout: ri
+      - layout: left
         title: ""
         description: |
           <p class="quote">현재 업무에 사용 중이거나 사용했던 기술입니다</p>
