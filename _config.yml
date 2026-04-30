@@ -90,7 +90,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 참여 프로젝트
         quote: >
@@ -106,8 +106,8 @@ content:
       - layout: left
         title: ""
         description: |
-          <p class="quote">현재 업무에 사용 중이거나 사용했던 기술입니다</p>
-          
+          <div class="content" style="width: 100%"><p class="quote">현재 업무에 사용 중이거나 사용했던 기술입니다</p></div>
+
       - layout: left
         title: Backend
         description: |
