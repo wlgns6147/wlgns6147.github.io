@@ -102,30 +102,8 @@ content:
 
   - title: Skill
     layout: list
-    quote: 현재 업무에 사용중 혹은 사용했던 기술들입니다.
-    content:
-      - layout: left
-        title: Backend
-        description: | # this will include new lines to allow paragraphs
-          - Java, Spring , Maven, 
-          - IntelliJ, Eclipse
-
-      - layout: left
-        title: DevOps
-        description: | # this will include new lines to allow paragraphs
-          - Oracle, MariaDB
-          - Tomcat
-          - Orange, Data Grip, DBeaver
-
-      - layout: left
-        title: Frontend
-        description: | # this will include new lines to allow paragraphs
-          - React, Npm, Node
-          - Visual Studio Code
-
-  - title: Skill
-    layout: list
-    quote: 현재 업무에 사용 중이거나 사용했던 기술입니다.
+    quote: >
+          현재 업무에 사용 중이거나 사용했던 기술입니다..
     content:
       - layout: left
         title: Backend
@@ -134,21 +112,21 @@ content:
           - Spring Framework (REST API 개발 및 서비스 구조 설계)
           - MyBatis (동적 SQL 및 쿼리 매핑)
           - Maven (프로젝트 빌드 및 의존성 관리)
-          - Tools: IntelliJ, Eclipse
+          - IntelliJ, Eclipse
 
       - layout: left
         title: DevOps & Database
         description: |
           - MariaDB, Oracle (쿼리 작성 및 성능 개선 경험)
           - Tomcat (웹 애플리케이션 배포 및 운영)
-          - Tools: Orange, DataGrip, DBeaver (DB 관리 및 쿼리 최적화)
+          - Orange, DataGrip, DBeaver
 
       - layout: left
         title: Frontend
         description: |
           - React (기본 컴포넌트 기반 UI 개발 경험)
           - Node.js, NPM (패키지 관리 및 개발 환경 구성)
-          - Tools: Visual Studio Code
+          - Visual Studio Code
 
   - title: A Little More About Me
     layout: text
