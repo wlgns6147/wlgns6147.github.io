@@ -16,7 +16,7 @@ email: wlgns6147@naver.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: jekyllrb
@@ -52,7 +52,7 @@ darkmode: true
 # about_title: About Me 1 (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring / Oracle & MariaDB 기반의 7년차 백엔드 개발자로 __1금융권 퇴직연금 서비스__ 개발, __임상 데이터 연구&분석(Clinical Data Warehouse) 플랫폼__ 개발 및 인프라 구축 등을 해왔습니다.
+  Java & Spring 기반의 7년차 백엔드 개발자로 __1금융권 퇴직연금 서비스__ 개발, __임상 데이터 연구&분석(Clinical Data Warehouse) 플랫폼__ 개발 및 인프라 구축 등을 해왔습니다.
   개인이 하고 싶은 일 보다는 회사와 팀에 도움이 되는 개발을 해야한다는 생각에 ... <mark>팀원과 팀의 성장</mark> 등을 주요 업무로 하고 있습니다.
   
 # xtrabackup, pt-online-schema-change, MHA를 활용한 MySQL 운영, Ansible을 이용한 IDC 인프라 운영을 해오기도 했습니다.
@@ -107,21 +107,48 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          - Java, Maven
-          - IntelliJ
+          - Java, Spring , Maven, 
+          - IntelliJ, Eclipse
 
       - layout: left
         title: DevOps
         description: | # this will include new lines to allow paragraphs
           - Oracle, MariaDB
           - Tomcat
-          - Orange, Data Grip
+          - Orange, Data Grip, DBeaver
 
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
           - React, Npm, Node
           - Visual Studio Code
+
+  - title: Skill
+    layout: list
+    quote: 현재 업무에 사용 중이거나 사용했던 기술입니다.
+    content:
+      - layout: left
+        title: Backend
+        description: |
+          - Java 8 (비즈니스 로직 구현 및 데이터 처리)
+          - Spring Framework (REST API 개발 및 서비스 구조 설계)
+          - MyBatis (동적 SQL 및 쿼리 매핑)
+          - Maven (프로젝트 빌드 및 의존성 관리)
+          - Tools: IntelliJ, Eclipse
+
+      - layout: left
+        title: DevOps & Database
+        description: |
+          - MariaDB, Oracle (쿼리 작성 및 성능 개선 경험)
+          - Tomcat (웹 애플리케이션 배포 및 운영)
+          - Tools: Orange, DataGrip, DBeaver (DB 관리 및 쿼리 최적화)
+
+      - layout: left
+        title: Frontend
+        description: |
+          - React (기본 컴포넌트 기반 UI 개발 경험)
+          - Node.js, NPM (패키지 관리 및 개발 환경 구성)
+          - Tools: Visual Studio Code
 
   - title: A Little More About Me
     layout: text
