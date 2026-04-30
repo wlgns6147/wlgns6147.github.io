@@ -102,9 +102,12 @@ content:
 
   - title: Skill
     layout: list
-    quote: >
-          현재 업무에 사용 중이거나 사용했던 기술입니다..
     content:
+      - layout: left
+        title: ""
+        description: |
+          현재 업무에 사용 중이거나 사용했던 기술입니다.
+          
       - layout: left
         title: Backend
         description: |
