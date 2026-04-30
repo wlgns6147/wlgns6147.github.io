@@ -102,19 +102,11 @@ content:
 
   - title: Skill
     layout: list
-    subtitle: 현재 업무에 사용 중이거나 사용했던 기술입니다.1
     content:
-      - layout: left
+      - layout: ri
         title: ""
         description: |
-          현재 업무에 사용 중이거나 사용했던 기술입니다.2
-          <span style="color:#aaa;">
-          현재 업무에 사용 중이거나 사용했던 기술입니다.3
-          </span>
-          <div class="quote">
-          현재 업무에 사용 중이거나 사용했던 기술입니다.4
-          </div>
-
+          <p class="quote">현재 업무에 사용 중이거나 사용했던 기술입니다</p>
           
       - layout: left
         title: Backend
